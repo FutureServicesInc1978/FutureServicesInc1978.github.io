@@ -1,61 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Future Services</title>
-    <style>
-      /* Style the navigation bar */
-      .navbar {
-        overflow: hidden; /* Hide overflow */
-        background-color: #333; /* Set a background color */
-      }
-<body style="background-color: green;">
-
-      /* Style the navigation bar links */
-      .navbar a {
-        float: left; /* Make the links float to the left */
-        display: block; /* Display the links as block elements */
-        color: white; /* Set the text color */
-        text-align: center; /* Center the text */
-        padding: 14px 20px; /* Add some padding */
-        text-decoration: none; /* Remove the underline from the links */
-        position: relative; /* Add position: relative to enable the use of ::before */
-}
-
-/* Insert an icon before the text of the links */
-.navbar a::before {
-  content: ""; /* Set the content to an empty string */
-  position: absolute; /* Position the icon absolutely */
-  top: 50%; /* Center the icon vertically */
-  left: 0; /* Align the icon to the left */
-  transform: translateY(-50%); /* Offset the icon by half its own height */
-  width: 20px; /* Set the width of the icon */
-  height: 20px; /* Set the height of the icon */
-  background: url('icon.png') no-repeat; /* Set the icon as the background image */
-  background-size: cover; /* Scale the icon to fit the dimensions */
-}
-
-
-      /* Change the color of the links on hover */
-      .navbar a:hover {
-        background-color: #ddd; /* Set a background color */
-        color: black; /* Set the text color */
-      }
-
-      /* Style the active/current link */
-      .navbar a.active {
-        background-color: #4caf50; /* Set a background color */
-        color: white; /* Set the text color */
-      }
-    </style>
-  </head>
-  <body>
-    <div class="navbar">
-      <a href="index.html" class="active">Home</a>
-      <a href="">About</a>
-      <a href="">Contact</a>
-    </div>
-    <h1>Welcome to Future Services</h1>
-    <h2>This site is still under construction.</h1>
-  </body>
+<head>
+  <title>Future Services</title>
+</head>
+<body>
+  <header>
+    <h1>Future Services</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About My Business</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non tortor lobortis, volutpat quam non, viverra diam. Aliquam erat volutpat. Cras velit velit, lobortis a volutpat quis, viverra a diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies efficitur nisi, in dignissim diam placerat id. Proin ac dapibus lacus. Etiam et dui consectetur, congue dui in, tincidunt urna. Suspendisse potenti. Duis ut erat auctor, fermentum lectus a, malesuada dui.</p>
+    </section>
+    <section id="products">
+      <h2>Our Products</h2>
+      <ul>
+        <li>Product 1</li>
+        <li>Product 2</li>
+        <li>Product 3</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Phone: 555-555-5555</p>
+      <p>Email: info@mybusiness.com</p>
+      <p>Address: 123 Main Street, Anytown USA</p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2021 My Business</p>
+  </footer>
+</body>
 </html>
-
