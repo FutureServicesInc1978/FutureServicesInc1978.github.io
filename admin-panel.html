@@ -30,10 +30,10 @@
       // Check if the password is correct
       if (enteredPassword === password) {
         // The password is correct, so display the page content
-        document.body.innerHTML = "<h1>Admin Panel</h1><p>Under Construction</p>";
+        window.location.href = "https://www.example.com";
       } else {
         // The password is incorrect, so display an error message
-        document.body.innerHTML = "<h1>Error: Incorrect Password</h1><p>The password you entered is incorrect. Please try again.</p>";
+        window.alert("Incorrect Password");
       }
     }
   </script>
